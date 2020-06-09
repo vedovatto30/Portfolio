@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Fernando Vedovatto</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">
+        </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+        </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+        </script>
+    <link rel="github" href="https://github.com/vedovatto30">   
+
+    <script src="https://kit.fontawesome.com/f0e17cbf2f.js" crossorigin="anonymous"></script>
+    <style>
+        p {
+            font-family: Lato, 'Helvetica Neue', Helvetica, Arial, sans-serif;
+        }
+        body {
+        	background-image: url(backgroundd.png);
+        	height: 100%
+        }
+
+        .foto-perfil {
+            height: 180px;
+            width: 180px
+            max-width: auto;
+            border-radius: 50%;
+            border: 3px solid black;
+        }
+
+        .icones {
+            padding-left: 5px;
+        }
+        
+        }
+
+        .titulosBrancos {
+            text-decoration: underline;
+            text-underline-position: under;
+            padding-bottom: 20px;
+            text-transform: uppercase;
+            font-weight: 700;
+            color: black;
+        }
+
+        .titulosVerdes {
+            text-decoration: underline;
+            text-underline-position: under;
+            padding-bottom: 20px;
+            text-transform: uppercase;
+            font-weight: 300;
+            color: white;
+        }
+
+        .paragrafoBrancos {
+            color: black !important;
+        }
+
+
+        .jumbotron {
+            margin-bottom: 0px;
+        }
+
+        html {
+            scroll-behavior: smooth;
+        }
+
+        p {
+            color: white !important;
+        }
+
+        
+
+        .itemMenu {
+            color: black;
+        }
+        .main{
+	display: flex; justify-content: center;
+	align-content: center;
+	width: 100%;
+	height: 100vh;
+	background-color:#fcf4ef;
+	
+}
+.list {
+	margin-bottom: 10px;
+	width: 250px;
+	height: 40px;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	font-size: 1.1rem;
+	background: #86e3cdbe;
+	letter-spacing: 0.1rem;
+	box-shadow: 0px 0px 8px rgb(177,177,177);
+	transform: scale(1);
+	transition: all 0.2s;
+	margin-left: auto;
+	margin-right: auto;
+}
+.list:hover{
+	background: #86e3cd;
+	transform: scale(1.05);
+}
+    </style>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-light" style="background-image: url(backgroundd.png);>
+        <a class="navbar-brand" href="#" style=color:white>Fernando Vedovatto</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExample04"
+            aria-controls="navbarsExample04" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExample04">
+            <ul class="navbar-nav mr-auto">
+
+            </ul>
+            <ul class="navbar-nav">
+                <li>
+                    <a href="#formacao" class="nav-link" style=color:white>Formação</a>
+                </li>
+                <li>
+                    <a href="#historia" class="nav-link" style=color:white>História</a>
+                </li>
+                <li>
+                    <a href="#experiencias" class="nav-link" style=color:white>Experiências</a>
+                </li>
+                <li>
+                    <a href="#contato" class="nav-link" style=color:white>Contato</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <section class="jumbotron text-center dark">
+        <div class="container">
+            <img src="Eu.jpg" class="foto-perfil" alt="Foto do Programador">
+            <h2 class="jumbotron-heading" style="color:black;text-transform: uppercase;">Paulo Fernando Vedovatto Vitor</h2>
+            <p class="lead" style="color:black !important;">Software Developer - Student
+            </p>
+            <p>
+                <a href="#contato" class="btn btn-dark my-2">contato</a>
+            </p>
+            <a href="https://github.com/vedovatto30" target="_blank"><i style="color:black" class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/paulo-fernando-vedovatto-vitor-1b723518a" target="_blank"><i style="color:black" class="fab fa-linkedin"></i></a>
+            <a href="https://www.instagram.com/nando.vedovatto" target="_blank"><i style="color:black" class="fab fa-instagram"></i></a>
+        </div>
+    </section>
+    <!-- Projects -->
+    <div class="album py-5 bg-dark " id="formacao">
+        <div class="container">
+            <h2 class="text-center jumbotron-heading titulosBrancos" style="color:white">Formação</h2>
+            <p color:white">Formado em Licenciatura em História pela Universidade Federal da Fronteira Sul em 2016, Pós Graduado em Educação Especial na Faculdade Santa Rita - Chapecó/SC. Continuo meus estudos focado na tecnologia da informação, cursando cursos online ofertadas por diferentes instituições, adquirindo conhecimento em Front End como Java, Css e JavaScript. Como também desenvolvendo conhecimento no Back End com a linguagem Java, Java EE.</p>
+            
+        </div>
+    </div>
+
+    <section class="jumbotron text-center" id="historia">
+        <div class="container">
+            <h2 class="text-center jumbotron-heading titulosBrancos">História</h2>
+            <p class="lead paragrafoBrancos">Sou formado na área de Licenciatura com pós graduação mas exerci pouco período a profissão. Trabalho no setor hoteleiro há 7 anos como recepcionista em um hotel referencia da cidade. Atualmente venho estudando na área de programação. Desenvolvi conhecimento em Linguagem de Programação, Banco de Dados, Java e Html. Busco oportunidade nessa área para aplicar o conhecimento aprendido, pois não tenho experiencia profissional até o momento. Possuo muita vontade e foco em aprender, estou iniciando nessa nova atividade por esforços próprios, com cursos pagos e muita pesquisa e estudos. Tenho certeza que farei jus a quem me oportunizar essa primeira experiência profissional.</p>
+        </div>
+    </section>
+
+    <section Id="experiencias">
+        <div class="album py-5 bg-dark">
+            <div class="container">
+                <h2 class="text-center jumbotron-heading titulosBrancos"style="color:white">Experiências</h2>
+
+                 <div class="menu">
+        <div class="list" >
+        	<span>1</span><span>HTML</span>
+        	<span>60%</span>
+        </div>	
+         <div class="list">
+        	<span>2</span><span>CSS</span>
+        	<span>60%</span>
+        </div>	
+         <div class="list">
+        	<span>3</span><span>JS</span>
+        	<span>60%</span>
+        </div>	
+         <div class="list">
+        	<span>4</span><span>JAVA</span>
+        	<span>30%</span>
+        </div>	
+        </div>
+            </div>
+        </div>
+    </section>
+
+    <section Id="contato" class="corPrimaria">
+        <div class ="jumbotron text-center">
+            <div class="container-fluid">
+                <h3 style="padding-top:90px;" class="text-center titulosBrancos">Disponível para oportunidades</h3>
+                <h4 style="padding-bottom:90px;margin-bottom: 0px;color:black;" class="text-center"><a
+                        href="#gmail" ></a>vedovatto.fv@gmail.com</h4>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-center" style="padding:0px; margin:0px">
+        <p style="margin:0px;padding-top:15px;padding-bottom:15px;color:white !important">Copyright 2020 Vedovatto®
+        </p>
+    </footer>
+
+</body>
+
+</html>
